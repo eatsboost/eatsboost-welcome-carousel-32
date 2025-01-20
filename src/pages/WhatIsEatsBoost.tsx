@@ -17,12 +17,20 @@ const WhatIsEatsBoost = () => {
         </div>
         
         <div className="space-y-8 text-center max-w-4xl mx-auto">
-          <h1 
-            className="text-4xl md:text-6xl font-semibold leading-tight tracking-tight text-black animate-fade-up opacity-0"
-            style={{ animationDelay: "0.2s" }}
-          >
-            One App. The Eateries You Love. Personalized Offers.
-          </h1>
+          <div className="space-y-4">
+            <h1 
+              className="text-4xl md:text-6xl font-semibold leading-tight tracking-tight text-black animate-fade-up opacity-0"
+              style={{ animationDelay: "0.2s" }}
+            >
+              One App. The Eateries You Love. Personalized Offers.
+            </h1>
+            <p 
+              className="text-xl md:text-2xl text-gray-600 animate-fade-up opacity-0"
+              style={{ animationDelay: "0.3s" }}
+            >
+              Experience Dining Like <span className="font-bold">Never</span> Before
+            </p>
+          </div>
           
           <div 
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 animate-fade-up opacity-0"
