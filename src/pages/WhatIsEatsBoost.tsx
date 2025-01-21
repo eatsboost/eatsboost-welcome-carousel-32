@@ -25,7 +25,7 @@ const WhatIsEatsBoost = () => {
               One App. The Eateries You Love. Personalized Offers.
             </h1>
             <p 
-              className="text-xl md:text-2xl text-gray-600 animate-fade-up opacity-0"
+              className="text-xl md:text-2xl text-black animate-fade-up opacity-0"
               style={{ animationDelay: "0.3s" }}
             >
               Experience Dining Like <span className="font-bold">Never</span> Before
