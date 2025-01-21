@@ -35,7 +35,7 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Buy a Boost Card</h2>
-                <p className="text-black text-lg">Each eatery has an <span className="font-bold">exclusive</span> Boost Card available for purchase. Buy your very own for <span className="font-bold">$8</span>. The Boost Card is a one time purchase, and gives you lifelong offers!</p>
+                <p className="text-black text-lg">Each eatery has an <span className="font-bold">exclusive</span> Boost Card available for purchase. Buy your very own for <span className="font-bold">$8</span>. The Boost Card is a one time purchase, and gives you <span className="font-bold">lifelong</span> offers!</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
                   <p className="text-black text-sm italic">
                     <span className="font-bold">Note:</span> Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
@@ -58,7 +58,7 @@ const HowItWorks = () => {
                 <p className="text-black text-lg">Add the eatery by scanning the QR code on the back of your <span className="font-bold">Boost Card</span></p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
                   <p className="text-black text-sm italic">
-                    Note: Keep your Boost Card safe, each boost card is unique to you and you will need it for exciting new features, soon to be launched.
+                    <span className="font-bold">Note:</span> Keep your Boost Card safe, each boost card is unique to you and you will need it for exciting new features, soon to be launched.
                   </p>
                 </div>
               </div>
@@ -70,16 +70,16 @@ const HowItWorks = () => {
               </div>
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Complete Regular Visits</h2>
-                <p className="text-black text-lg">Each eatery will have a few number of regular visits (with a minimum spend) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle*</span>, and begin generating offers.</p>
+                <p className="text-black text-lg">Each eatery will have a few number of regular visits (<span className="font-bold">with a minimum spend</span>) to complete before being able to generate offers. Log your visits in the app to enter a <span className="font-bold">Boost Cycle*</span>, and begin generating offers.</p>
                 <div className="mt-4 space-y-4">
                   <div className="p-4 bg-white/10 rounded-lg border border-white/20">
                     <p className="text-black text-sm">
-                      <span className="font-bold">Example</span>: Papa's Pizzeria - 2 regular visits & $9.99 spend per visit to unlock <span className="font-bold">Boost Cycle</span>.
+                      <span className="font-bold">Example</span>: Papa's Pizzeria - 2 regular visits & $9.99 spend per visit to unlock a <span className="font-bold">Boost Cycle</span>.
                     </p>
                   </div>
                   <div className="p-4 bg-white/10 rounded-lg border border-white/20">
                     <p className="text-black text-sm">
-                      <span className="font-bold">Boost Cycle</span>: A period of 30 days where you can generate 2 offers every 7 days. Once a <span className="font-bold">Boost Cycle</span> ends, complete visits to begin a new <span className="font-bold">Boost Cycle</span>.
+                      <span className="font-bold">Boost Cycle</span>: A period of 30 days where you can generate 2 offers every 7 days. Once a <span className="font-bold">Boost Cycle</span> ends, complete your visits again to begin a new <span className="font-bold">Boost Cycle</span>.
                     </p>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const HowItWorks = () => {
                 <p className="text-black text-lg">You can generate <span className="font-bold">two offers</span> once every <span className="font-bold">7 days</span> (redeem before they expire!)</p>
                 <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
                   <p className="text-black text-sm">
-                    Each offer is either <span className="font-bold">Level 1</span>, <span className="font-bold">Level 2</span>, or <span className="font-bold">Level 3</span>. The higher the level, the more <span className="font-bold">rare</span> the offer
+                    Each offer is either <span className="font-bold">Level 1</span>, <span className="font-bold">Level 2</span>, or <span className="font-bold">Level 3</span>. The higher the level, the more <span className="font-bold">rare and valuable</span> the offer
                   </p>
                 </div>
               </div>
@@ -108,6 +108,11 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Redeem</h2>
                 <p className="text-black text-lg">When ready to redeem, activate the offer in the app and show the server</p>
+                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
+                  <p className="text-black text-sm italic">
+                    <span className="font-bold">Note:</span> You must be at the eatery to redeem an offer. You can also use multiple offers per day
+                  </p>
+                </div>
               </div>
             </div>
           </div>
