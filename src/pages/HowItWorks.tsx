@@ -42,11 +42,6 @@ const HowItWorks = () => {
                     <span className="font-bold">Note:</span> Each eatery has a limited number of Boost Cards. Once they're gone, they're gone!
                   </p>
                 </div>
-                <div className="mt-2 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Note:</span> You can have up to 3 eateries on your profile
-                  </p>
-                </div>
               </div>
             </div>
 
@@ -109,11 +104,6 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Redeem</h2>
                 <p className="text-black text-lg">When ready to redeem, activate the offer in the app and show the server</p>
-                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Note:</span> You must be at the eatery to redeem an offer. You can also use multiple offers per day
-                  </p>
-                </div>
               </div>
             </div>
           </div>
