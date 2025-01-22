@@ -131,9 +131,44 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-2">
-              <AccordionTrigger>What are the requirements for redeeming offers?</AccordionTrigger>
+              <AccordionTrigger>How do I redeem offers?</AccordionTrigger>
               <AccordionContent>
-                You must be at the eatery to redeem an offer. You can also use multiple offers per day.
+                First, make sure that you are at the eatery, otherwise, you will not be able to redeem the offer. In the EatsBoost app, navigate to the "My Offers" page and tap "Activate" beside the offer. A confirmation screen will appear. Upon confirming, you will have 15 seconds to show the server, and they will process the offer for you. Enjoy!
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3">
+              <AccordionTrigger>How many Boost Cycles can I activate at a time?</AccordionTrigger>
+              <AccordionContent>
+                You can activate one Boost Cycle per eatery category. For example, if you have two restaurants in your profile, you can only activate a Boost Cycle for one of them. The ability to <span className="font-bold">activate</span> a Boost Cycle does not expire. If you have 1 restaurants and 1 cafe, you can activate Boost Cycles for both
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4">
+              <AccordionTrigger>Can I remove eateries from my profile?</AccordionTrigger>
+              <AccordionContent>
+                Yes. However, please note that when you remove an eatery, your Boost Card is deactivated and you must purchase another Boost Card to add the same eatery again
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5">
+              <AccordionTrigger>When do offers expire?</AccordionTrigger>
+              <AccordionContent>
+                Offers expire 7 days after they were generated
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6">
+              <AccordionTrigger>What kind of offers can I expect to get?</AccordionTrigger>
+              <AccordionContent>
+                We aim to create offers for 30% - 40% of an eatery&apos;s menu, and target popular items. Offers are either Level 1 / Level 2 / Level 3. Level 1 offers are <span className="font-bold">base</span> offers and are <span className="font-bold">common</span>, and Level 3 are the most <span className="font-bold">valuable</span> and <span className="font-bold">rare</span>. <span className="font-bold">Bonus:</span> If you redeem at least 3 offers in a Boost Cycle, you will get a <span className="font-bold">guaranteed</span> Level 3 Offer in the next Boost Cycle
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-7">
+              <AccordionTrigger>How long can I generate offers for?</AccordionTrigger>
+              <AccordionContent>
+                There is no limit to how many offers you can generate over time. As long as you keep an eatery in your profile, you can continue entering Boost Cycle&apos;s and generate 2 offers every 7 days until the Boost Cycle ends. If you would like to start another Boost Cycle, you can do so right after your visits are complete and approved
               </AccordionContent>
             </AccordionItem>
           </Accordion>
