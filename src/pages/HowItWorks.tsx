@@ -4,6 +4,7 @@ import { Button } from "../components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../components/ui/accordion";
 
 const HowItWorks = () => {
   const navigate = useNavigate();
@@ -127,6 +128,25 @@ const HowItWorks = () => {
             Next
             <ArrowRight className="ml-2" />
           </Button>
+        </div>
+
+        <div className="mt-16">
+          <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible className="w-full">
+            <AccordionItem value="item-1">
+              <AccordionTrigger>How many eateries can I have on my profile?</AccordionTrigger>
+              <AccordionContent>
+                You can have up to 3 eateries on your profile.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2">
+              <AccordionTrigger>What are the requirements for redeeming offers?</AccordionTrigger>
+              <AccordionContent>
+                You must be at the eatery to redeem an offer. You can also use multiple offers per day.
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </div>
     </div>
