@@ -16,9 +16,9 @@ const CallToAction = () => {
             Join EatsBoost Today and Redefine Your Eating Out Experience
           </h2>
           
-          <div className="relative py-4 px-6 bg-gradient-to-r from-eatsboost-orange/10 to-eatsboost-yellow/10 rounded-lg border-2 border-eatsboost-orange/20 shadow-lg animate-scale-in opacity-0" style={{ animationDelay: "0.35s" }}>
+          <div className="relative py-6 px-8 bg-eatsboost-orange/20 rounded-lg border-2 border-eatsboost-orange shadow-lg animate-scale-in opacity-0 -mb-4" style={{ animationDelay: "0.35s" }}>
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white px-4">
-              <span className="text-eatsboost-orange">✨ Special Offer ✨</span>
+              <span className="text-eatsboost-orange font-semibold">Special Offer</span>
             </div>
             <p className="text-lg text-gray-800">
               Get a <span className="font-bold">Level 2 welcome offer</span> when you purchase a Boost Card and add an eatery
