@@ -15,6 +15,16 @@ const CallToAction = () => {
           <h2 className="text-3xl font-semibold text-black animate-fade-up opacity-0" style={{ animationDelay: "0.3s" }}>
             Join EatsBoost Today and Redefine Your Eating Out Experience
           </h2>
+          
+          <div className="relative py-4 px-6 bg-gradient-to-r from-eatsboost-orange/10 to-eatsboost-yellow/10 rounded-lg border-2 border-eatsboost-orange/20 shadow-lg animate-scale-in opacity-0" style={{ animationDelay: "0.35s" }}>
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white px-4">
+              <span className="text-eatsboost-orange">✨ Special Offer ✨</span>
+            </div>
+            <p className="text-lg text-gray-800">
+              Get a <span className="font-bold">Level 2 welcome offer</span> when you purchase a Boost Card and add an eatery
+            </p>
+          </div>
+
           <div className="mt-16 p-6 border-2 border-gray-200 rounded-lg shadow-sm animate-fade-up opacity-0" style={{ animationDelay: "0.4s" }}>
             <p className="text-xl text-gray-700">
               Ask the server for a Boost Card and Download the App!
