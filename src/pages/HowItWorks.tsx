@@ -123,7 +123,7 @@ const HowItWorks = () => {
         <div className="mt-16">
           <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
 
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full text-left">
             <AccordionItem value="item-1">
               <AccordionTrigger>How Many Eateries Can I Have On My Profile?</AccordionTrigger>
               <AccordionContent>
