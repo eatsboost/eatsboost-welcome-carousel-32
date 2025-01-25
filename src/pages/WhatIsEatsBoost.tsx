@@ -43,11 +43,11 @@ const WhatIsEatsBoost = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
+            <div className="aspect-[9/16] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-                alt="Phone Display 2"
-                className="w-full h-full object-cover"
+                src="/lovable-uploads/33d854dd-8ae5-4c4d-ba72-bef4d3a072a1.png"
+                alt="EatsBoost Generate Offers Screen"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
