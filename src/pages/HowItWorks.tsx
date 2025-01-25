@@ -125,7 +125,7 @@ const HowItWorks = () => {
 
           <Accordion type="single" collapsible className="w-full bg-white/10 rounded-lg border border-white/20 divide-y divide-white/20">
             <AccordionItem value="item-1" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 How Many Eateries Can I Have On My Profile?
               </AccordionTrigger>
               <AccordionContent>
@@ -134,7 +134,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-2" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 How Do I Redeem Offers?
               </AccordionTrigger>
               <AccordionContent>
@@ -143,7 +143,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-3" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 How Many Boost Cycles Can I Activate At A Time?
               </AccordionTrigger>
               <AccordionContent>
@@ -152,7 +152,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-4" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 Can I Remove Eateries From My Profile?
               </AccordionTrigger>
               <AccordionContent>
@@ -161,7 +161,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-5" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 When Do Offers Expire?
               </AccordionTrigger>
               <AccordionContent>
@@ -170,7 +170,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-6" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 What Kind Of Offers Can I Expect To Get?
               </AccordionTrigger>
               <AccordionContent>
@@ -179,7 +179,7 @@ const HowItWorks = () => {
             </AccordionItem>
 
             <AccordionItem value="item-7" className="px-4 border-none">
-              <AccordionTrigger className="text-left">
+              <AccordionTrigger className="text-center justify-center">
                 How Long Can I Generate Offers For?
               </AccordionTrigger>
               <AccordionContent>
