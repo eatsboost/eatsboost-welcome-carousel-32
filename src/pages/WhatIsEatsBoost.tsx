@@ -38,8 +38,8 @@ const WhatIsEatsBoost = () => {
           >
             <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-                alt="Phone Display 1"
+                src="/lovable-uploads/e8f1ffa8-64d8-4288-b568-c43edab15666.png"
+                alt="EatsBoost My Eateries Screen"
                 className="w-full h-full object-cover"
               />
             </div>
