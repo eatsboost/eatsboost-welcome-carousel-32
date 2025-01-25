@@ -120,60 +120,73 @@ const HowItWorks = () => {
           </Button>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-16 w-full">
           <h2 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h2>
 
-          <Accordion type="single" collapsible className="w-full text-left">
-            <AccordionItem value="item-1">
-              <AccordionTrigger>How Many Eateries Can I Have On My Profile?</AccordionTrigger>
+          <Accordion type="single" collapsible className="w-full bg-white/10 rounded-lg border border-white/20 divide-y divide-white/20">
+            <AccordionItem value="item-1" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                How Many Eateries Can I Have On My Profile?
+              </AccordionTrigger>
               <AccordionContent>
                 You can have up to <span className="font-bold">3 eateries</span> on your profile.
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-2">
-              <AccordionTrigger>How Do I Redeem Offers?</AccordionTrigger>
+            <AccordionItem value="item-2" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                How Do I Redeem Offers?
+              </AccordionTrigger>
               <AccordionContent>
                 First, make sure that you are at the <span className="font-bold">eatery</span>, otherwise, you will not be able to redeem the offer. In the <span className="font-bold">EatsBoost app</span>, navigate to the "<span className="font-bold">My Offers</span>" page and tap "<span className="font-bold">Activate</span>" beside the offer. A confirmation screen will appear. Upon confirming, you will have <span className="font-bold">15 seconds</span> to show the server, and they will process the offer for you. Enjoy!
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-3">
-              <AccordionTrigger>How Many Boost Cycles Can I Activate At A Time?</AccordionTrigger>
+            <AccordionItem value="item-3" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                How Many Boost Cycles Can I Activate At A Time?
+              </AccordionTrigger>
               <AccordionContent>
                 You can activate <span className="font-bold">one Boost Cycle per eatery category</span>. For example, if you have two restaurants in your profile, you can only activate a Boost Cycle for one of them. The ability to <span className="font-bold">activate</span> a Boost Cycle does not expire. If you have <span className="font-bold">1 restaurant and 1 cafe</span>, you can activate Boost Cycles for both
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-4">
-              <AccordionTrigger>Can I Remove Eateries From My Profile?</AccordionTrigger>
+            <AccordionItem value="item-4" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                Can I Remove Eateries From My Profile?
+              </AccordionTrigger>
               <AccordionContent>
                 Yes. However, please note that when you remove an eatery, your <span className="font-bold">Boost Card is deactivated</span> and you must <span className="font-bold">purchase another Boost Card</span> to add the same eatery again
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-5">
-              <AccordionTrigger>When Do Offers Expire?</AccordionTrigger>
+            <AccordionItem value="item-5" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                When Do Offers Expire?
+              </AccordionTrigger>
               <AccordionContent>
                 Offers expire <span className="font-bold">7 days</span> after they were generated
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-6">
-              <AccordionTrigger>What Kind Of Offers Can I Expect To Get?</AccordionTrigger>
+            <AccordionItem value="item-6" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                What Kind Of Offers Can I Expect To Get?
+              </AccordionTrigger>
               <AccordionContent>
                 We aim to create offers for <span className="font-bold">30% - 40%</span> of an eatery&apos;s menu, and target popular items. Offers are either Level 1 / Level 2 / Level 3. Level 1 offers are <span className="font-bold">base</span> offers and are <span className="font-bold">common</span>, and Level 3 are the most <span className="font-bold">valuable</span> and <span className="font-bold">rare</span>. <span className="font-bold">Bonus:</span> If you redeem at least <span className="font-bold">3 offers</span> in a Boost Cycle for a given eatery, you will get a <span className="font-bold">guaranteed</span> Level 3 Offer in the next Boost Cycle (for the same eatery)
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-7">
-              <AccordionTrigger>How Long Can I Generate Offers For?</AccordionTrigger>
+            <AccordionItem value="item-7" className="px-4 border-none">
+              <AccordionTrigger className="text-left">
+                How Long Can I Generate Offers For?
+              </AccordionTrigger>
               <AccordionContent>
                 There is <span className="font-bold">no limit</span> to how many offers you can generate over time. As long as you keep an eatery in your profile, you can continue entering <span className="font-bold">Boost Cycles</span> and generate <span className="font-bold">2 offers every 7 days</span> until the Boost Cycle ends. If you would like to start another Boost Cycle, you can do so right after your visits are <span className="font-bold">complete and approved</span>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-
         </div>
       </div>
     </div>
