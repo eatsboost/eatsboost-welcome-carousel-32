@@ -7,6 +7,17 @@ import { useNavigate } from "react-router-dom";
 const Hero = () => {
   const navigate = useNavigate();
 
+  const handleButtonClick = () => {
+    // Track button click event
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'click', {
+        'event_category': 'Navigation',
+        'event_label': 'Next Button - Hero Section'
+      });
+    }
+    navigate("/what-is-eatsboost");
+  };
+
   return (
     <div className="min-h-[100dvh] flex flex-col items-center justify-between p-6 gradient-background">
       <div className="flex-1 flex flex-col items-center justify-center text-center space-y-8 py-12">
@@ -35,7 +46,7 @@ const Hero = () => {
       <Button 
         className="animate-fade-up opacity-0 bg-white text-black hover:bg-gray-100"
         style={{ animationDelay: "0.7s" }}
-        onClick={() => navigate("/what-is-eatsboost")}
+        onClick={handleButtonClick}
       >
         Next
         <ArrowRight className="ml-2" />
