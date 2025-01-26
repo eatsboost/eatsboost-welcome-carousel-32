@@ -50,11 +50,11 @@ const WhatIsEatsBoost = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="aspect-[9/16] bg-gray-200 rounded-2xl shadow-lg overflow-hidden">
+            <div className="aspect-[9/16] rounded-2xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1"
-                alt="Phone Display 3"
-                className="w-full h-full object-cover"
+                src="/lovable-uploads/628f9c1f-ad53-4b7d-9cf0-15cbe43447f1.png"
+                alt="EatsBoost My Offers Screen"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
