@@ -174,7 +174,7 @@ const HowItWorks = () => {
                 What Kind Of Offers Can I Expect To Get?
               </AccordionTrigger>
               <AccordionContent>
-                We aim to create offers for <span className="font-bold">30% - 40%</span> of an eatery&apos;s menu, and target popular items. Offers are either Level 1 / Level 2 / Level 3. Level 1 offers are <span className="font-bold">base</span> offers and are <span className="font-bold">common</span>, and Level 3 are the most <span className="font-bold">valuable</span> and <span className="font-bold">rare</span>. <span className="font-bold">Bonus:</span> If you redeem at least <span className="font-bold">3 offers</span> in a Boost Cycle for a given eatery, you will get a <span className="font-bold">guaranteed</span> Level 3 Offer in the next Boost Cycle (for the same eatery)
+                We aim to create offers for <span className="font-bold">30% - 40%</span> of an eatery&apos;s menu, and target popular items. Offers are either <span className="font-bold">Level 1 / Level 2 / Level 3</span>. Level 1 offers are <span className="font-bold">base</span> offers and are <span className="font-bold">common</span>, and Level 3 are the most <span className="font-bold">valuable</span> and <span className="font-bold">rare</span>
               </AccordionContent>
             </AccordionItem>
 
