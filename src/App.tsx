@@ -1,3 +1,8 @@
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-Z1P5Y89ZH8"); // Replace with your Google Analytics Measurement ID
+ReactGA.send("pageview"); // Tracks the first page load
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
