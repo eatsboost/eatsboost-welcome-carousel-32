@@ -9,8 +9,8 @@ const Hero = () => {
 
   const handleButtonClick = () => {
     // Track button click event
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'click', {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', 'click', {
         'event_category': 'Navigation',
         'event_label': 'Next Button - Hero Section'
       });
