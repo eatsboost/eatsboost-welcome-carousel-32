@@ -144,10 +144,10 @@ const HowItWorks = () => {
 
             <AccordionItem value="item-3" className="px-4 border-none">
               <AccordionTrigger className="text-center justify-center">
-                How Many Boost Cycles Can I Activate At A Time?
+                How Many Offers Can I Redeem per Day?
               </AccordionTrigger>
               <AccordionContent>
-                You can activate <span className="font-bold">one Boost Cycle per eatery category</span>. For example, if you have two restaurants in your profile, you can only activate a Boost Cycle for one of them. The ability to <span className="font-bold">activate</span> a Boost Cycle does not expire. If you have <span className="font-bold">1 restaurant and 1 cafe</span>, you can activate Boost Cycles for both
+                There is no limit on how many offers you can redeem per day
               </AccordionContent>
             </AccordionItem>
 
