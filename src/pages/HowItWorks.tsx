@@ -192,7 +192,7 @@ const HowItWorks = () => {
                 Can I Use Someone Else's Boost Card to Add an Eatery?
               </AccordionTrigger>
               <AccordionContent>
-                No. Each Boost Card is <span className="font-bold">unique to a user</span>. To add an eatery, you must <span className="font-bold">purchase a Boost Card</span> from the eatery, and scan the QR code on the back in the app
+                No. Each Boost Card is <span className="font-bold">unique to a user</span>. To add an eatery, you must <span className="font-bold">purchase a Boost Card</span> from the eatery, and scan the QR code on the back of the Boost Card in the EatsBoost App
               </AccordionContent>
             </AccordionItem>
           </Accordion>
