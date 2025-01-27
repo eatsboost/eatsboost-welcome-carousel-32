@@ -36,21 +36,21 @@ const WhatIsEatsBoost = () => {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 animate-fade-up opacity-0"
             style={{ animationDelay: "0.4s" }}
           >
-            <div className="aspect-[9/16] rounded-2xl overflow-hidden">
+            <div className="aspect-[9/16] rounded-2xl overflow-hidden flex items-center justify-center bg-white">
               <img
                 src="/lovable-uploads/d2d0e8a1-a3b5-427a-b908-58bb15fb8475.png"
                 alt="EatsBoost My Eateries Screen"
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="aspect-[9/16] rounded-2xl overflow-hidden">
+            <div className="aspect-[9/16] rounded-2xl overflow-hidden flex items-center justify-center bg-white">
               <img
                 src="/lovable-uploads/33d854dd-8ae5-4c4d-ba72-bef4d3a072a1.png"
                 alt="EatsBoost Generate Offers Screen"
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="aspect-[9/16] rounded-2xl overflow-hidden">
+            <div className="aspect-[9/16] rounded-2xl overflow-hidden flex items-center justify-center bg-white">
               <img
                 src="/lovable-uploads/628f9c1f-ad53-4b7d-9cf0-15cbe43447f1.png"
                 alt="EatsBoost My Offers Screen"
