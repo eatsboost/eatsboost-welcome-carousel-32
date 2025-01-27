@@ -186,6 +186,15 @@ const HowItWorks = () => {
                 There is <span className="font-bold">no limit</span> to how many offers you can generate over time. As long as you keep an eatery in your profile, you can continue entering <span className="font-bold">Boost Cycles</span> and generate <span className="font-bold">2 offers every 7 days</span> until the Boost Cycle ends. If you would like to start another Boost Cycle, you can do so right after your visits are <span className="font-bold">complete and approved</span>
               </AccordionContent>
             </AccordionItem>
+
+            <AccordionItem value="item-8" className="px-4 border-none">
+              <AccordionTrigger className="text-center justify-center">
+                Can I Use Someone Else's Boost Card to Add an Eatery?
+              </AccordionTrigger>
+              <AccordionContent>
+                No. Each Boost Card is <span className="font-bold">unique to a user</span>. To add an eatery, you must <span className="font-bold">purchase a Boost Card</span> from the eatery, and scan the QR code on the back in the app
+              </AccordionContent>
+            </AccordionItem>
           </Accordion>
         </div>
       </div>
