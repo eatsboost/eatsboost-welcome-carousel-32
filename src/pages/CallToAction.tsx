@@ -18,7 +18,7 @@ const CallToAction = () => {
           
           <div className="relative py-6 px-8 bg-eatsboost-orange/20 rounded-lg border-2 border-eatsboost-orange shadow-lg animate-scale-in opacity-0 -mb-4" style={{ animationDelay: "0.35s" }}>
             <p className="text-lg text-gray-800">
-              <span className="font-bold">Limited-time Offer</span>: Get a <span className="font-bold">Level 2</span> welcome offer when you purchase a Boost Card and add an eatery
+              <span className="font-bold">Limited-time Offer</span>: Get a <span className="font-bold">Level 3</span> welcome offer when you purchase a Boost Card and add an eatery
             </p>
           </div>
 
