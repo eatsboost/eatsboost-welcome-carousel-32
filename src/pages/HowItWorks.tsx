@@ -133,7 +133,7 @@ const HowItWorks = () => {
                 How Do I Redeem Offers?
               </AccordionTrigger>
               <AccordionContent>
-                First, make sure that you are at the <span className="font-bold">eatery</span>, otherwise, you will not be able to redeem the offer. In the <span className="font-bold">EatsBoost app</span>, navigate to the "<span className="font-bold">My Offers</span>" page and tap "<span className="font-bold">Activate</span>" beside the offer. A confirmation screen will appear. Upon confirming, you will have <span className="font-bold">15 seconds</span> to show the server, and they will process the offer for you. Enjoy!
+                In the <span className="font-bold">EatsBoost app</span>, navigate to the "<span className="font-bold">My Offers</span>" page and tap "<span className="font-bold">Activate</span>" beside the offer. A confirmation screen will appear. Upon confirming, you will have <span className="font-bold">15 seconds</span> to show the server, and they will process the offer for you. Enjoy!
               </AccordionContent>
             </AccordionItem>
 
