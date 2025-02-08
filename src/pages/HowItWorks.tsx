@@ -52,11 +52,6 @@ const HowItWorks = () => {
               <div>
                 <h2 className="text-xl md:text-2xl font-semibold text-black mb-2">Scan the QR Code in the App</h2>
                 <p className="text-black text-lg">Add the eatery by scanning the QR code on the back of your <span className="font-bold">Boost Card</span></p>
-                <div className="mt-4 p-4 bg-white/10 rounded-lg border border-white/20">
-                  <p className="text-black text-sm italic">
-                    <span className="font-bold">Note:</span> Keep your Boost Card safe, each boost card is unique to you and you will need it for exciting new features, soon to be launched.
-                  </p>
-                </div>
               </div>
             </div>
 
